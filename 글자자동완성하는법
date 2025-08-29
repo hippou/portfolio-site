@@ -1,0 +1,8 @@
+// 1.세팅 열고
+2.setting.json파일열고 아래 내용 쉼표(,)찍고 추가하기 
+//  "css.styleSheets": [
+//         "**/*.css",
+//         "**/*.scss",
+//         "https://cdn.jsdelir.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+//     ]
+3.메인 경로에 gitignore파일 등록
