@@ -1,0 +1,10 @@
+1.웹표준검사 html파일
+https://validator.w3.org/
+
+2.웹표준검사 css파일
+https://jigsaw.w3.org/css-validator/?utm_source=chatgpt.com
+
+3.웹접근성검사 
+ㄴf12개발자도구
+ㄴlighthouse
+(데스크탑 - 성능,접근성)
