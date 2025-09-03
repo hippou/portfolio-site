@@ -129,3 +129,22 @@ window.addEventListener('scroll', function(){
     visualSpanEls.forEach(function (visualSpan){ visualSpan.classList.add('animate-flash');}) 
   }
 })
+
+//모바일용 메뉴
+const HamburgerBtn = document.querySelector('.btn-hamburger');
+const navEl = document.querySelector('header nav');
+const menuItems = document.querySelectorAll('header nav ul li a');
+
+
+HamburgerBtn.addEventListener('click',function(){
+  navEl.classList.toggle("active"); 
+});
+
+menuItems.forEach(function(menuItem){
+  
+menuItem.addEventListener('click',function(){
+  navEl.classList.remove("active");})}
+);
+
+
+
